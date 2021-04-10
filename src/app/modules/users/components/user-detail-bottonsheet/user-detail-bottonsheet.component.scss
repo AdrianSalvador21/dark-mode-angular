@@ -1,0 +1,29 @@
+.user-basic-name {
+  transition: background-color 0.5s;
+  background-image: linear-gradient(to right, var(--gradient-color-one), var(--gradient-color-two));
+  min-width: 8rem;
+  min-height: 8rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+}
+
+.user-dialog-container {
+  min-height: 25rem;
+}
+
+.user-description {
+  color: var(--primary-color);
+}
+
+.bottonsheet-container {
+  padding: 14px 3px !important;
+  background-color: var(--third-bg);
+}

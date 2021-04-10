@@ -1,0 +1,14 @@
+{
+  "header": {
+    "title": "CodeChallenge",
+    "name": "Adrián Salvador",
+    "colorTitle": "Modo oscuro",
+    "englishLabel": "Inglés",
+    "spanishLabel": "Español",
+    "languageLabel": "Languaje"
+  },
+  "users": {
+    "title" : "Nuestro equipo",
+    "subtitle": "Buscamos atraer, desarrollar y retener a gente joven y excepcional para poder ofrecerte las mejores soluciones. Cada colaborador es parte de los logros y crecimiento de la empresa."
+  }
+}

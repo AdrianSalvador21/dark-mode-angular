@@ -1,0 +1,231 @@
+.search-box {
+  display: flex;
+  justify-content: center;
+}
+
+.search-input-container {
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 15px;
+  background-color: #1e232e;
+  color: white;
+  min-width: 24rem;
+}
+
+.form-control-custom {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.search-input {
+  border: none !important;
+  font-size: 12px !important;
+  padding: 1.2rem 1rem 1.2rem 0 !important;
+  margin: 0 !important;
+  background-color: transparent !important;
+  color: #ffffff !important;
+
+  &:focus, &:active{
+    outline: none !important;
+  }
+}
+
+.custom-button {
+  background-color: transparent;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+}
+
+.search-icon {
+  font-size: 1rem;
+  height: 1rem;
+  width: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.users-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 30px;
+  row-gap: 10px;
+  margin-top: 3.5rem;
+  padding-bottom: 2rem;
+}
+
+.user-card {
+  width: 100%;
+  max-width: 325px;
+  padding: 27px 20px 25px 20px;
+  margin: 0 auto 8px auto;
+  position: relative;
+  text-align: center;
+  border-radius: 5px;
+  user-select: none;
+  transition: background-color 0.5s;
+  background-color: var(--third-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+
+  h3 {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 3rem;
+  }
+
+  p {
+    color: var(--primary-color);
+    font-size: 12px;
+    margin-bottom: 0;
+    font-weight: 300;
+  }
+}
+
+.user-card:hover {
+  animation-duration: 1300ms; /* same as transition duration */
+  animation-timing-function: linear; /* kind of same as transition timing */
+  animation-delay: 0ms; /* same as transition delay */
+  animation-iteration-count: 1; /* set to 2 to make it run twice, or Infinite to run forever!*/
+  animation-direction: normal; /* can be set to "alternate" to run animation, then run it backwards.*/
+  animation-fill-mode: none; /* can be used to retain keyframe styling after animation, with "forwards" */
+  animation-play-state: running; /* can be set dynamically to pause mid animation*/
+  animation-name: changeCardColor;
+}
+
+.user-basic-name {
+  transition: background-color 2s;
+  background-image: linear-gradient(to right, var(--gradient-color-one), var(--gradient-color-two));
+  min-width: 5rem;
+  min-height: 5rem;
+  border-radius: 50%;
+  top: -40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+
+  span {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+}
+
+.user-card::before {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, var(--gradient-color-one), var(--gradient-color-two));
+}
+
+.intro-container {
+  min-height: 7rem;
+  border-radius: 5px;
+  transition: background-color 0.5s;
+  // background-color: #252c3f;
+  background-color: var(--third-bg);
+}
+
+.intro-image {
+  width: 21rem;
+  min-height: 23rem;
+}
+
+.into-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-info-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 15rem;
+
+  h3 {
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .intro-info-container {
+    padding: 0 1.5rem;
+    justify-content: flex-start;
+    min-height: 11rem !important;
+
+    p {
+      font-size: 14px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+  }
+
+  .users-container {
+    margin-top: 2rem;
+  }
+
+  .intro-image {
+    padding: 0 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+  .users-container  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 10px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .users-container  {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@keyframes changeCardColor {
+  0% {
+    background-color: var(--third-bg);
+  }
+  50% {
+    background-color: var(--transition-bg)
+  }
+  100% {
+    background-color: var(--third-bg);
+  }
+}

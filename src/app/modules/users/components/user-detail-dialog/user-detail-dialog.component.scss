@@ -1,0 +1,30 @@
+.user-basic-name {
+  transition: background-color 0.5s;
+  background-image: linear-gradient(to right, var(--gradient-color-one), var(--gradient-color-two));
+  min-width: 10rem;
+  min-height: 10rem;
+  border-radius: 50%;
+  top: -40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+
+  span {
+    color: white;
+    font-size: 3rem;
+    font-weight: 400;
+  }
+}
+
+.user-dialog-container {
+  min-height: 20rem;
+}
+
+.user-description {
+  color: var(--primary-color);
+}
+
+.dialog-container {
+  background-color: var(--third-bg);
+}

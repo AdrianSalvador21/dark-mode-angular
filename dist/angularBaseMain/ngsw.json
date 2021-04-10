@@ -1,0 +1,94 @@
+{
+  "configVersion": 1,
+  "timestamp": 1614331877277,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/5-es2015.680b496b64d350e9519b.js",
+        "/5-es5.680b496b64d350e9519b.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.2054fb2d421177ae74a5.js",
+        "/main-es5.2054fb2d421177ae74a5.js",
+        "/manifest.webmanifest",
+        "/polyfills-es2015.ffa9bb4e015925544f91.js",
+        "/polyfills-es5.44547b4d4a23c72d0f9c.js",
+        "/runtime-es2015.0f2f200d2b8199c9cf47.js",
+        "/runtime-es5.0f2f200d2b8199c9cf47.js",
+        "/styles.2d25037b2008ca2abe20.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/i18n/en.json",
+        "/assets/i18n/es.json",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/images/public/clock.svg",
+        "/assets/images/public/logoAdrian.svg",
+        "/assets/images/public/team.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/5-es2015.680b496b64d350e9519b.js": "7e1d77ee00b55ebce06855087a13d7982731ada3",
+    "/5-es5.680b496b64d350e9519b.js": "605a91c614d379c6a9bd8d12e797df86613c5609",
+    "/assets/i18n/en.json": "75f5effd7ce86b7fdebc2d7974c5f434d9e08e02",
+    "/assets/i18n/es.json": "137fa836f9f563bac882313b21222c20f482f5a0",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/images/public/clock.svg": "13e3834ba8b177e3a6d338988d345d3b3949b7fc",
+    "/assets/images/public/logoAdrian.svg": "99a74f4c807bc40a58e200404403bcc6da47965c",
+    "/assets/images/public/team.svg": "a831c4fe477a03210b12611c013af3c73ee2d5f1",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "6bfeafaf703140992052a23d506d7eb7785d66be",
+    "/main-es2015.2054fb2d421177ae74a5.js": "a04a8799a0c48c2b1635a2f7cc879af5f53606b8",
+    "/main-es5.2054fb2d421177ae74a5.js": "1352f0373f1f49c5ffc26b7c09976943f52f9fb4",
+    "/manifest.webmanifest": "87c126d313cd47208f534b033cf99aacd08b093c",
+    "/polyfills-es2015.ffa9bb4e015925544f91.js": "79b2ff5ba292ae9e56f0b43982b9e76d9ddcf285",
+    "/polyfills-es5.44547b4d4a23c72d0f9c.js": "ee074d163edc0215cfc1ce2bfe58fcab8cf13024",
+    "/runtime-es2015.0f2f200d2b8199c9cf47.js": "a11fd712675d89f03c9ea2de2359e9de5a5f84a5",
+    "/runtime-es5.0f2f200d2b8199c9cf47.js": "4610148b875a6dabde95e728e09cbb369b31258c",
+    "/styles.2d25037b2008ca2abe20.css": "c882fc5f66ef24c1b5409e5ad31aa3fc7eb3b2f2"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
